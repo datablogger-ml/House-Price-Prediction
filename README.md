@@ -7,15 +7,14 @@ Predicting the price of Houses using different features. Using multiple feature 
 The purpose of this project is to get familiar with Time Series Forecasting which is very helpful in univariate analysis, and is extensively used in Demand Forecasting. Time series forecasting uses the information in a time series to forecast future values of that series.
 
 ### Methods Used
-* Time Series Forecasting
+* Regression Analysis - Linear, Polynomial, Ridge, Lasso, Elastic Net
 * Machine Learning
-* Hyper-Parameter Optimization
+* Feature - Selection Techniques
 * Data Visualization
-* Inferential Statistics
 
 ### Technologies
 * Python
-* sklearn, statsmodels
+* sklearn
 * Pandas, jupyter
 * matplotlib
 
