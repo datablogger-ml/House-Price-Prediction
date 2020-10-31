@@ -30,27 +30,22 @@ It is expressed as an index level relative to a base year (currently 2012) ie. t
 
 ### Methods
 
-#### 1. Holt-Winters (TES)
-#### 2. ARIMA
+#### 1. Regression 
 
-ARIMA (Autoregressive Independent Moving Average) is a combination of 3 models:
-* <strong>AR(p)</strong> Autoregression - a regression model that utilizes the dependent relationship between a current observation and observations over a previous period.
-* <strong>I(d)</strong> Integration - uses differencing of observations (subtracting an observation from an observation at the previous time step) in order to make the time series stationary (constant mean -> No trend, constant variance).
-* <strong>MA(q)</strong> Moving Average - a model that uses the dependency between an observation and a residual error from a moving average model applied to lagged observations.
+In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables :
 
-#### 3. SARIMA
-Seasonal Autoregrssive Independent Moving Average:
+* <strong>Simple Linear Regression</strong> - 
+* <strong>Multiple Linear Regression</strong> - 
+* <strong>Polynomial</strong> -
+* <strong>Lasso(L1 Regularization)</strong> - 
+* <strong>Ridge(L2 Regularization)</strong> - 
 
-* Where ARIMA accepts the parameters (p,d,q), SARIMA accepts an <em>additional</em> set of parameters (P,D,Q)m that specifically describe the seasonal components of the model. Here P, D and Q represent the seasonal regression, differencing and moving average coefficients, and m represents the number of data points (rows) in each seasonal cycle.
 
-## Needs of this project
+#### 2. Feature Selection Techniques
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+* <strong>Correlation</strong> - 
+* <strong>Reccursive Feature Elimination(RFE)</strong>
+* <strong>Lasso Feature selection</strong>
 
 ## Getting Started
 
