@@ -23,7 +23,7 @@ The purpose of this project is to get familiar with Time Series Forecasting whic
 
 ### Data
 
-<a href='https://fred.stlouisfed.org/series/IPN31152N'>Download Link</a>
+<a href='https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/kc_house_data.csv'>Download Link</a>
 
 ### Methods
 
@@ -47,7 +47,7 @@ In statistical modeling, regression analysis is a set of statistical processes f
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+2. Raw Data is being kept [here](https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/kc_house_data.csv) within this repo.
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
