@@ -31,8 +31,17 @@ The purpose of this project is to get familiar with Time Series Forecasting whic
 
 In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables :
 
-* <strong>Simple Linear Regression</strong> - 
-* <strong>Multiple Linear Regression</strong> - 
+* <strong>Simple Linear Regression</strong> - A simple liner regression is a linear model which concerns two-dimensional sample points with one independent /input/feature variable and one dependent/output/target variable and finds a linear function that,as accurately as possible, predicts the dependent variable values as a funcition of the independent variable.
+It is common to make the additional stipulation that the ordinary least squares (OLS) method should be used: the accuracy of each predicted value is measured by its squared residual (vertical distance between the point of the data set and the fitted line), and the goal is to make the sum of these squared deviations as small as possible. 
+<img src = 'https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/1920px-Linear_regression.svg.png' width = 400 height = 300>
+
+Equation for Simple Linear Regression : h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> + &theta;<sub>1</sub>x
+
+* <strong>Multiple Linear Regression</strong> - Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression (MLR) is to model the linear relationship between the explanatory (independent) variables and response (dependent) variable.
+In essence, multiple regression is the extension of ordinary least-squares (OLS) regression that involves more than one explanatory variable.
+
+
+
 * <strong>Polynomial</strong> -
 * <strong>Lasso(L1 Regularization)</strong> - 
 * <strong>Ridge(L2 Regularization)</strong> - 
