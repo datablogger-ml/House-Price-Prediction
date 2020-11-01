@@ -4,7 +4,7 @@ Predicting the price of Houses using different features. Using multiple feature 
 #### -- Project Status: Active
 
 ## Project Intro/Objective
-The purpose of this project is to get familiar with Time Series Forecasting which is very helpful in univariate analysis, and is extensively used in Demand Forecasting. Time series forecasting uses the information in a time series to forecast future values of that series.
+The purpose of this project is to get familiar with Regression Analysis which is a very helpful prediction method in univariate and multivariate analysis.
 
 ### Methods Used
 * Regression Analysis - Linear, Polynomial, Ridge, Lasso, Elastic Net
@@ -19,9 +19,10 @@ The purpose of this project is to get familiar with Time Series Forecasting whic
 * matplotlib
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
 ### Data
+
+
 
 <a href='https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/kc_house_data.csv'>Download Link</a>
 
@@ -38,13 +39,14 @@ It is common to make the additional stipulation that the ordinary least squares 
 Equation for Simple Linear Regression : h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> + &theta;<sub>1</sub>x
 
 * <strong>Multiple Linear Regression</strong> - Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression (MLR) is to model the linear relationship between the explanatory (independent) variables and response (dependent) variable.
-In essence, multiple regression is the extension of ordinary least-squares (OLS) regression that involves more than one explanatory variable.
+In essence, multiple regression is the extension of ordinary least-squares (OLS) regression that involves more than one explanatory variable (n independent variables).
 
-
+Equation for Multiple Linear Regression : h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> + &theta;<sub>1</sub>x<sub>1</sub> + &theta;<sub>2</sub>x<sub>2</sub> + ...&theta;<sub>n</sub>x<sub>n</sub>
 
 * <strong>Polynomial</strong> -
 * <strong>Lasso(L1 Regularization)</strong> - 
 * <strong>Ridge(L2 Regularization)</strong> - 
+* <strong>Elastic Net</strong> - 
 
 
 #### 2. Feature Selection Techniques
