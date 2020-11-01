@@ -22,7 +22,10 @@ The purpose of this project is to get familiar with Regression Analysis which is
 
 ### Data
 
+The real estate markets, like those in Sydney and Melbourne, present an interesting opportunity for data analysts to analyze and predict where property prices are moving towards. Prediction of property prices is becoming increasingly important and beneficial. Property prices are a good indicator of both the overall market condition and the economic health of a country.
 
+* Total Columns = 18
+* Total Rows = 21613
 
 <a href='https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/kc_house_data.csv'>Download Link</a>
 
