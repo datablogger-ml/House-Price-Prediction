@@ -46,7 +46,12 @@ In essence, multiple regression is the extension of ordinary least-squares (OLS)
 
 Equation for Multiple Linear Regression : h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> + &theta;<sub>1</sub>x<sub>1</sub> + &theta;<sub>2</sub>x<sub>2</sub> + ...&theta;<sub>n</sub>x<sub>n</sub>
 
-* <strong>Polynomial</strong> -
+* <strong>Polynomial</strong> - Sometimes the straight line is unable to capture the patterns in the data (underfitting). To overcome this, we need to increase the complexity of the model and generate a higher order equation (add powers of the original features as new feature).
+
+<img src = 'https://raw.githubusercontent.com/datablogger-ml/House-Price-Prediction/main/polynomial_regression.png' width = 400 height = 300>
+
+Equation for n degree Polynomial Regression : h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> + &theta;<sub>1</sub>x + &theta;<sub>2</sub>x<sup>2</sup> +... &theta;<sub>n</sub>x<sup>n</sup>
+
 * <strong>Lasso(L1 Regularization)</strong> - 
 * <strong>Ridge(L2 Regularization)</strong> - 
 * <strong>Elastic Net</strong> - 
